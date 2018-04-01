@@ -1,7 +1,7 @@
-This is a dokku buildpack for installing Jekyll 3. It uses `Ruby 2.2.1` and `nginx 1.5.7`
+This is a dokku buildpack for installing Jekyll 3. It uses `Ruby 2.5.0` and `nginx 1.5.7`
 
 Tested with:
-- `dokku 0.10.5` and `jekyll-3.6.2` on Ubuntu 14.04.
+- `dokku 0.10.5` and `jekyll-3.6.2` on Ubuntu 16.04.
 
 ### Usage
 
@@ -9,7 +9,7 @@ Just add a `.buildpacks` file in the root of your Jekyll project containing:
 
 ```
 https://github.com/ryandotsmith/nginx-buildpack.git
-https://github.com/inket/dokku-buildpack-jekyll3-nginx.git
+https://github.com/scryptmouse/dokku-buildpack-jekyll3-nginx.git
 ```
 
 (Delete any previous `.env` file that contain `export BUILDPACK_URL=...`)
